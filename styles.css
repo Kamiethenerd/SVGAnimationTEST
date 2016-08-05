@@ -2,31 +2,9 @@ body {
 	background: #21243B;
 }
 
-/*@keyframes fadeIn {
-	from {
-		opacity: 0;
-		visibility: hidden;
-	}
-	to {
-		opacity: 1;
-		visibility: visible;
-	}
+canvas {
+	border: 5px solid white;
 }
-@keyframes fadeOut {
-	from {
-		opacity: 1;
-		visibility: visible;
-	}
-	to {
-		opacity: 0;
-		visibility: hidden;
-	}
-}
-#firework{
-	visibility: hidden;
-	animation: fadeIn .75s 3s forwards;
-	animation: fadeOut 2.5s 4s forwards;
-}*/
 
 @keyframes innerSpark{
 	5%{
@@ -39,11 +17,6 @@ body {
 		visibility: visible;
 		transform: scale(.5,.5);
 	}
-	/*50%{
-		opacity: 1;
-		visibility: visible;
-		transform: scale(.75,.75);
-	}*/
 	100%{
 		opacity: 0;
 		visibility: hidden;
@@ -68,11 +41,6 @@ body {
 		visibility: visible;
 		transform: scale(.5,.5);
 	}
-	/*50%{
-		opacity: 1;
-		visibility: visible;
-		transform: scale(.75,.75);
-	}*/
 	100%{
 		opacity: 0;
 		visibility: hidden;
@@ -90,9 +58,6 @@ body {
 	0%{
 		transform: translateY(200px);
 	}
-	/*50%{
-		transform: translateY(-20px);
-	}*/
 	100%{
 		transform: translateY(600px);
 	}

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
-  <title>Fireworks!</title>
-</head>
-<body>
-	<canvas id="sky" width="1300" height="700"></canvas>
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="400" width="400" style="background-color:#21243B;" id="firework">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="400" width="400" style="background-color:#21243B;" id="firework">
 		<g id="outer">
 			<line y1="10" x1="10" y2="150" x2="150" stroke-width="20px" stroke="white" stroke-linecap="round"/>
 			<line y1="150" x1="250" y2="10" x2="390" stroke-width="20px" stroke="white" stroke-linecap="round"/>
@@ -20,6 +11,3 @@
 			<line y1="200" x1="240" y2="200" x2="370" stroke-width="20px" stroke="white" stroke-linecap="round"/>
 			<line y1="240" x1="200" y2="370" x2="200" stroke-width="20px" stroke="white" stroke-linecap="round"/>
 		</g>
-		</svg>
-</body>
-</html>
